@@ -23,7 +23,7 @@ balance = 100
 print('balance: {}'.format(balance))
 
 # fstring <-- 内部的には.formatより処理が早いが、Python 3.6以降で使用可能
-print('*'*30, ' .fstring ', '*'*30)
+print('*'*30, ' fstring ', '*'*30)
 print(f'{hello} {world}')
 print(f'Hey, {name}!! How are you doing?')
 print(f'balance: {balance}')
